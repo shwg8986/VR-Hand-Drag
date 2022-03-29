@@ -96,7 +96,7 @@ public class ObjectLogGesture : MonoBehaviour
     void Start()
     {
 
-        string fname = "Gesture_Depth_1.csv";
+        string fname = "Gesture_drag.csv";
         string path = Path.Combine(Application.persistentDataPath, fname);
 
         if (File.Exists(path))
